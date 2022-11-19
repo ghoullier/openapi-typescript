@@ -38,13 +38,13 @@
     "build": "del dist && tsc -p tsconfig.build.json",
     "dev": "tsc -p tsconfig.build.json --watch",
     "download:schemas": "vite-node ./scripts/download-schemas.ts",
-    "format": "npm run prettier -w .",
+    "format": "prettier -w .",
     "lint": "eslint .",
-    "prepare": "npm run build",
+    "prepare": "pnpm run build",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
     "update:examples": "vite-node ./scripts/update-examples.ts",
-    "version": "npm run build"
+    "version": "pnpm run build"
   },
   "dependencies": {
     "ansi-colors": "^4.1.3",
