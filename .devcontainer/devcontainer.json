@@ -1,0 +1,12 @@
+{
+    "name": "Deno",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+  
+    // Configure tool-specific properties.
+    "customizations": {
+    },
+  
+    "remoteUser": "vscode"
+  }
